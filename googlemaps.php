@@ -14,7 +14,7 @@
         var rvkLatlng = new google.maps.LatLng(64.1330,-21.9330);
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
-          center: new google.maps.LatLng(rvkLatlng),
+          center: new google.maps.LatLng(64.1330,-21.9330),
           zoom: 8,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
@@ -25,10 +25,10 @@
             title:"Halló Reykjavík!"
         });
         marker.setMap(map);
-        google.maps.event.addDomListener(window, 'load', initialize);
+        
 
         }
-
+        google.maps.event.addDomListener(window, 'load', initialize);
       
 
     </script>
