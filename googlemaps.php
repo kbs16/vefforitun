@@ -25,9 +25,11 @@
             title:"Halló Reykjavík!"
         });
         marker.setMap(map);
+        google.maps.event.addDomListener(window, 'load', initialize);
+
         }
 
-      google.maps.event.addDomListener(window, 'load', initialize);
+      
 
     </script>
   </head>
