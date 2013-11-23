@@ -21,11 +21,14 @@
         var map = new google.maps.Map(map_canvas, map_options)
 
         var marker = new google.maps.Marker({
-          position: rvkLatlng,
-          title:"Halló Reykjavík!"
-      });
-      }
+            position: rvkLatlng,
+            title:"Halló Reykjavík!"
+        });
+        marker.setMap(map);
+        }
+
       google.maps.event.addDomListener(window, 'load', initialize);
+
     </script>
   </head>
   <body>
