@@ -20,6 +20,7 @@
         }
         var map = new google.maps.Map(map_canvas, map_options)
 
+        //margir markerar http://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example
         var marker = new google.maps.Marker({
             position: rvkLatlng,
             title:"Halló Reykjavík!"
