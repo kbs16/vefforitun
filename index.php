@@ -26,9 +26,10 @@
 
 </section>
 <article id="hlid">
-<h2>Aðrir Fossar</h2>
-<p>Donec eget odio iaculis massa pulvinar porttitor quis eu mi. Integer auctor mi nec nisi auctor facilisis. Etiam vitae tellus pretium magna ornare adipiscing. Pellentesque non nisi nec ipsum viverra auctor vitae sed libero. Cras rhoncus et lectus quis mattis. Mauris nec libero sem. Cras tristique et erat sed suscipit.
-</p>
+<h2>Debug</h2>
+<?php
+include('eqdata.php');
+?>
 <h2>Dynjandi</h2>
 <p>Phasellus consectetur, ante et sollicitudin sollicitudin, nisi arcu consectetur mauris, id vulputate justo quam quis ipsum. Donec varius pellentesque pretium. Phasellus a nulla odio. Sed commodo enim quam. Donec id justo eget dui luctus fermentum in non nisl. Quisque blandit, ligula sit amet posuere convallis, justo diam ullamcorper ante, vitae elementum lacus turpis non lectus. Donec ullamcorper urna sit amet urna luctus, ac tincidunt felis porta. Maecenas tristique augue non nunc semper pharetra. Sed egestas, elit ac tincidunt auctor, ipsum tortor imperdiet neque, nec egestas purus orci sed lectus.
 </p>

@@ -1,4 +1,4 @@
-<? php
+<?php
 $method = $_SERVER['REQUEST_METHOD'];
 
 
@@ -7,7 +7,7 @@ if (!$ch) {
     die("Couldn't initialize a cURL handle");
 }
 // cURL eiginleikar setir inn
-$ret = curl_setopt($ch, CURLOPT_URL,            "http://apis.is/cinema");
+$ret = curl_setopt($ch, CURLOPT_URL,            "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson");
 $ret = curl_setopt($ch, CURLOPT_HEADER,         1);
 $ret = curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 $ret = curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -40,7 +40,8 @@ else {
         $jardskjalftar = array();
 
         echo "<pre>";
-        echo $afkodud_gogn;
+        echo "Gögnin sem koma frá usgs.gov :";
+        var_dump($hausinn);
         echo "</pre>";
 
         /*foreach($afkodud_gogn->{'results'} as $mynd => $ni){
