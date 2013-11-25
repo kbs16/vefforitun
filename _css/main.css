@@ -6,10 +6,11 @@ html {
 }
 
 body {
-	font: 100% Georgia, "Times New Roman", Times, serif;
+	/*font: 100% Georgia, "Times New Roman", Times, serif;*/
+	font: 100% monospace;
 	width: 1040px;
 	margin: 0 auto;
-	padding: 0 50px;
+	padding: 0 1em;
 	text-align:left;
 	position: relative;	
 }
@@ -28,7 +29,7 @@ article#hlid{
 	float:right;
 	clear:right;
 	width:400px;
-	background-color:#FFBF80
+	background-color:#E0E0F0
 }
 
 img {
@@ -49,5 +50,5 @@ header#mainHeader h3 {
 	color:#999;
 }
 article h2{
-	background-color:#804000
+	background-color:#A0A0FF
 }
