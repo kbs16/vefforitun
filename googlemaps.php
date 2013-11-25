@@ -9,7 +9,7 @@
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="js/googlemaps.js"></script>
+    <script src="./js/googlemaps.js"></script>
   </head>
   <body>
     <div id="map_canvas"></div>
