@@ -13,5 +13,8 @@
   </head>
   <body>
     <div id="map_canvas"></div>
+    <? php 
+    require('eqdata.php')
+    ?>
   </body>
 </html>
