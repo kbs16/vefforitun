@@ -5,6 +5,38 @@ html {
 	background:#FFF;
 }
 
+nav ul {
+
+	list-style: none;
+	float: right;
+}
+nav a {
+	color:#333;
+	padding-bottom: 15px;
+}
+nav ul li{
+	/*float:left;*/
+	display: inline;
+}
+header#mainHeader nav{
+
+	float: right;
+}
+.vinstriGrein{
+	width: 60%;
+	box-sizing: border-box;
+	float:left;
+	padding:1em;
+	margin-bottom: 2em
+}
+.hagriGrein{
+	width: 35%;
+	box-sizing: border-box;
+	float:right;
+	padding:1em;
+	margin-bottom: 2em
+}
+
 body {
 	font: 100% Georgia, "Times New Roman", Times, serif;
 	width: 1000px;
