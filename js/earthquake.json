@@ -1,0 +1,113 @@
+{
+    "items":[
+    {
+        "timestamp":"2013-11-26T20:26:53.000Z",
+        "latitude":"63.916",
+        "longitude":"-21.177",
+        "depth":"5.5",
+        "size":"0.5",
+        "quality":"53.07",
+        "humanReadableLocation":"8,8 km VSV af Selfossi"
+    },
+    {
+        "timestamp":"2013-11-26T01:32:36.000Z",
+        "latitude":"63.59",
+        "longitude":"-19.196",
+        "depth":"5.4",
+        "size":"1.1",
+        "quality":"32.83",
+        "humanReadableLocation":"4,9 km VNV af Hábungu"
+    }
+    ,
+    {
+        "timestamp":"2013-11-26T00:50:30.000Z",
+        "latitude":"63.618",
+        "longitude":"-19.045",
+        "depth":"3",
+        "size":"0.4",
+        "quality":"65.92",
+        "humanReadableLocation":"5,0 km NNA af Hábungu"
+    },
+    {
+        "timestamp":"2013-11-25T18:25:15.000Z",
+        "latitude":"64.024",
+        "longitude":"-21.527",
+        "depth":"2.7",
+        "size":"0.8",
+        "quality":"39.83",
+        "humanReadableLocation":"3,8 km VNV af Þrengslum"
+    },
+    {
+        "timestamp":"2013-11-25T17:47:08.000Z",
+        "latitude":"64.033",
+        "longitude":"-21.529",
+        "depth":"3.8",
+        "size":"0.9",
+        "quality":"60.41",
+        "humanReadableLocation":"3,1 km SSV af Litlu Kaffistofunni"
+    },
+    {
+        "timestamp":"2013-11-25T10:04:49.000Z",
+        "latitude":"64.074",
+        "longitude":"-21.569",
+        "depth":"3.7",
+        "size":"0.3",
+        "quality":"46.6",
+        "humanReadableLocation":"3,8 km VNV af Litlu Kaffistofunni"
+    },
+    {
+        "timestamp":"2013-11-25T10:03:16.000Z",
+        "latitude":"64.026",
+        "longitude":"-21.553",
+        "depth":"15.9",
+        "size":"0.7",
+        "quality":"33.92",
+        "humanReadableLocation":"4,3 km SV af Litlu Kaffistofunni"
+    },
+    {
+        "timestamp":"2013-11-25T05:51:04.000Z",
+        "latitude":"64.033",
+        "longitude":"-21.528",
+        "depth":"3.6",
+        "size":"0.6",
+        "quality":"45.93",
+        "humanReadableLocation":"3,1 km SSV af Litlu Kaffistofunni"
+    },
+    {
+        "timestamp":"2013-11-25T00:24:33.000Z",
+        "latitude":"64.616",
+        "longitude":"-16.697",
+        "depth":"8.2",
+        "size":"2.5",
+        "quality":"82.19",
+        "humanReadableLocation":"4,3 km VSV af Kverkfjöllum"
+    },
+    {
+        "timestamp":"2013-11-24T23:38:54.000Z",
+        "latitude":"64.016",
+        "longitude":"-21.54",
+        "depth":"4.4",
+        "size":"0.4",
+        "quality":"60.73",
+        "humanReadableLocation":"4,1 km V af Þrengslum"
+    },
+    {
+        "timestamp":"2013-11-24T22:55:07.000Z",
+        "latitude":"64.028",
+        "longitude":"-21.537",
+        "depth":"4.9",
+        "size":"0.4",
+        "quality":"70.66",
+        "humanReadableLocation":"3,7 km SSV af Litlu Kaffistofunni"
+    },
+    {
+        "timestamp":"2013-11-24T22:31:50.000Z",
+        "latitude":"64.018",
+        "longitude":"-21.522",
+        "depth":"2.8",
+        "size":"0.3",
+        "quality":"32.26",
+        "humanReadableLocation":"3,3 km VNV af Þrengslum"
+    }
+]
+}
