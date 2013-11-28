@@ -17,12 +17,13 @@
             {
                 var marker = new google.maps.Marker({
                 //position:  new google.maps.LatLng(63.916,-21.177)
-                position: new google.maps.LatLng(value.latitude,value.longitude)
+                position: new google.maps.LatLng(value.latitude,value.longitude),
+                title: (value.humanReadableLocation + "\n" + "Stærð á Richter:" + value.size)
                 
                 //map: map
-             });
+                });
                 marker.setMap(map);
-            })
+            });
         });
         /*var marker = new google.maps.Marker({
             //osition: rvkLatlng,
