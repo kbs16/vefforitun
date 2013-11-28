@@ -41,7 +41,7 @@ class NoCache implements ICache
 	public function get($key)
 	{
 		$this->logger->Log("Getting debug data for {$key}");
-		return file_get_contents('cinema.debug.json');
+		return file_get_contents('debug.apis.is-earthquake-is.json');
 	}
 }
 

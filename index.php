@@ -5,6 +5,7 @@
 <link href="_css/main.css" rel="stylesheet" media="screen, projection">
 <?php
 	header('Content-Type: text/html; charset=utf-8');
+    const DEBUG = false;
     const CACHE_TIME = 600;
     const CACHE_FS = 'cache/';
     const EQ_URL = 'http://apis.is/earthquake/is';
