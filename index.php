@@ -5,6 +5,34 @@
 <link href="_css/main.css" rel="stylesheet" media="screen, projection">
 <?php
 	header('Content-Type: text/html; charset=utf-8');
+    const CACHE_TIME = 600;
+    const CACHE_FS = 'cache/';
+    const EQ_URL = 'http://apis.is/earthquake/is';
+
+    // Our dependencies
+    $logger = require('log.php');
+    $cache = require('cache.php');
+    require('restclient.class.php');
+
+    // Track how long we're doing all of this
+    $logger->Log("Starting");
+
+    $rest = new RestClient($cache, $logger);
+
+    try
+    {
+        $data = $rest->Get(EQ_URL, true);
+    }
+    catch (Exception $e)
+    {
+        // if we couldn't get any data, set it to false, the view knows how to handle it
+        $data = false;
+    }
+
+    if ($data != false)
+    {
+        $earthquakes = $data["results"];
+    }
 ?>
 <title>Lokaverkefni í Vefforritun</title>
 </head>

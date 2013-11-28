@@ -5,7 +5,7 @@
           zoom: 8,
           center: new google.maps.LatLng(63.916,-21.177),
           //mapTypeId: google.maps.MapTypeId.TERRAIN,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          mapTypeId: google.maps.MapTypeId.SATELLITE,
           mapTypeControl: false
         }
         var map = new google.maps.Map(map_canvas, map_options);
@@ -18,7 +18,7 @@
                 var marker = new google.maps.Marker({
                 //position:  new google.maps.LatLng(63.916,-21.177)
                 position: new google.maps.LatLng(value.latitude,value.longitude),
-                title: (value.humanReadableLocation + "\n" + "Stærð á Richter:" + value.size)
+                title: (value.humanReadableLocation + "\n" + "Stærð á Richter:" + value.size + "\n" + "Klukkan:" + value.timestamp)
                 
                 //map: map
                 });
