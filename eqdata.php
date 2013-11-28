@@ -1,3 +1,6 @@
 <?php
-    echo "Inni í eqdata.php :"$earthquakes;
+    echo "<pre>";
+    echo "Inni í eqdata.php :";
+    var_dump($earthquakes);
+    echo "</pre>";
 ?>
