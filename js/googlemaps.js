@@ -11,9 +11,9 @@
         var map = new google.maps.Map(map_canvas, map_options);
 
         //margir markerar http://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example
-        $.getJSON("js/earthquake.json", function(data)
+        $.getJSON("./cache/apis.is-earthquake-is.cache", function(data)
         {
-            $.each(data.items, function(i, value)
+            $.each(data.results, function(i, value)
             {
                 var marker = new google.maps.Marker({
                 //position:  new google.maps.LatLng(63.916,-21.177)
