@@ -4,12 +4,7 @@
 	margin:0 0;
 	padding:0;
 }
-hgroup{
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
-	font: inherit;
-}
+
 address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
 	display: block;
 }
@@ -19,24 +14,30 @@ html, body {
 }
 
 body { font: 12px/2em 'open_sansregular', Verdana, sans-serif; }
+p{
+	line-height: 1.4em;
+}
 .wrapper
 {
 	position: relative;	
 	max-width: 1040px;
 	width: 80%;
 	margin: 0 auto -240px;
-	padding: 0 50px;
+	/*padding: 0 50px;*/
 	text-align:left;
 }
 header#mainHeader {
-	background: #646266;
+
+	/*background: #646266;*/
 	height: 150px;
 	margin-bottom: 24px;
+	background-image: url('/vefforitun/image/jardskjalfti_banner.jpg');
 
 }
 header#mainHeader h1 {
 	font-size:3.2em;
-	padding: 20px 60px;
+	padding-top: 1.3em;
+	text-transform: uppercase;
 	color:#fff;
 	text-align: center; 
 }
@@ -87,8 +88,35 @@ footer .footerbox{
 	width: 100%;
 	overflow: hidden;
 }
+.hlidar_art p, h2{
+	padding-left: 1em;
+	padding-right: 1em;
+}
 .hlidar_art{
-	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
-	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
-	background: linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+	background: #f7f0b7;
+	padding-bottom: 1em;
+	background: -moz-linear-gradient(top,  #f7f0b7 0%, #b57c12  100%);
+	background:-webkit-linear-gradient(top,  #f7f0b7 0%, #b57c12 100%);
+	background: linear-gradient(top,  #f7f0b7 0%, #b57c12 100%);
+
+}
+#map_canvas {
+    width: 600px;
+    height: 500px;
+}
+
+#map_div{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#map_tile{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#m_section{
+	display: none;
 }
