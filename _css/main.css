@@ -28,11 +28,20 @@ p{
 }
 header#mainHeader {
 
-	/*background: #646266;*/
+	
 	height: 150px;
 	margin-bottom: 24px;
-	background-image: url('/vefforitun/image/jardskjalfti_banner.jpg');
+	background-image: url("../image/jardskjalfti_banner.jpg");
 
+}
+img{
+	float: left;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+	margin-top: 4px ;
+	margin-right: 8px;
+	margin-bottom: 2px;
 }
 header#mainHeader h1 {
 	font-size:3.2em;
@@ -63,6 +72,8 @@ nav ul li{
 nav h2{
 	display: none;
 }
+nav ul li a:hover { border-bottom: 4px solid #55c; }
+.current { color: #55c; border-bottom: 4px solid #55c;  }
 #adal{
 	float:left;
 	width:600px;
@@ -82,12 +93,21 @@ nav h2{
 	display: none;
 }
 footer .footerbox{
+	font-size: 1.2em;
 	float: left;
-	margin-top: 4em;
-	margin-bottom: 2em;
+	height: 100px;
 	width: 100%;
 	overflow: hidden;
+	background: rgb(254,254,254); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(226,226,226,1) 47%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(47%,rgba(226,226,226,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(226,226,226,1) 47%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(226,226,226,1) 47%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(226,226,226,1) 47%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(254,254,254,1) 0%,rgba(226,226,226,1) 47%); /* W3C */
+
 }
+
 .hlidar_art p, h2{
 	padding-left: 1em;
 	padding-right: 1em;
@@ -119,4 +139,7 @@ footer .footerbox{
 }
 #m_section{
 	display: none;
+}
+.adal_articl{
+	margin-top: 10px
 }
