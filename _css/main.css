@@ -1,30 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
-html {
+* {
+	margin:0 0;
+	padding:0;
+}
+hgroup{
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font: inherit;
+}
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+html, body {
+	height: 100%;
 	background:#FFF;
 }
 
-body {
-	font: 12px/2em Georgia, "Times New Roman", Times, serif;
-	width: 1040px;
-	margin: 0 auto;
+body { font: 12px/2em 'open_sansregular', Verdana, sans-serif; }
+.wrapper
+{
+	position: relative;	
+	max-width: 1040px;
+	width: 80%;
+	margin: 0 auto -240px;
 	padding: 0 50px;
 	text-align:left;
-	position: relative;	
 }
 header#mainHeader {
+	background: #646266;
 	height: 150px;
+	margin-bottom: 24px;
+
 }
 header#mainHeader h1 {
-	font-size:3em;
-	padding: 0 60px;
-	color:#666;
-	 text-align: center; 
+	font-size:3.2em;
+	padding: 20px 60px;
+	color:#fff;
+	text-align: center; 
 }
-header#mainHeader h2 {
-	font-size:1.5em;
-	color:#999;
-	 text-align: center; 
+nav{
+	margin: 10px;
 }
 nav ul {
 
@@ -38,10 +55,14 @@ nav a {
 }
 nav ul li{
 	/*float:left;*/
-	font-size: 1.5em;
+	font-size: 2em;
 	display: inline;
 }
-section#adal{
+
+nav h2{
+	display: none;
+}
+#adal{
 	float:left;
 	width:600px;
 	/*padding: 0 10px 0 25px;*/
@@ -49,37 +70,25 @@ section#adal{
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
-article#hlid{
+#hlid{
+	border-top: 15px;
 	float:right;
 	clear:right;
 	width:400px;
-	background-color:#FFBF80
-}
 
-img {
-	float:right;
 }
-
-
-
-header#mainHeader h3 {
-	font-size:.75em;
-	color:#999;
+#auka{
+	display: none;
 }
-article h2{
-	background-color:#804000
+footer .footerbox{
+	float: left;
+	margin-top: 4em;
+	margin-bottom: 2em;
+	width: 100%;
+	overflow: hidden;
 }
-.vinstriGrein{
-	width: 60%;
-	box-sizing: border-box;
-	float:left;
-	padding:1em;
-	margin-bottom: 2em
-}
-.hagriGrein{
-	width: 35%;
-	box-sizing: border-box;
-	float:right;
-	padding:1em;
-	margin-bottom: 2em
+.hlidar_art{
+	background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
+	background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
+	background: linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100#)
 }
