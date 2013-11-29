@@ -31,6 +31,8 @@ class RestClient
 		}
 
 		$key = $this->makeKey($url);
+		//debug vegna staðsetningar á cache skránni
+		//$key = getcwd()."/cache/".$key.".cache";
 
 		$this->logger->Log("Key for {$url} is {$key}");
 

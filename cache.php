@@ -29,7 +29,7 @@ class NoCache implements ICache
 
 	public function __construct(ILog $logger)
 	{
-		$this->logger = $logger;
+		$this->logger = $logger('NoCache');
 	}
 
 	public function set($key, $value)
@@ -61,6 +61,8 @@ class ApcCache implements ICache
 	{
 		$this->timeout = $timeout;
 		$this->logger = $logger;
+
+		$this->logger->log("Nota ApcCache");
 	}
 
 	public function set($key, $value)
@@ -91,6 +93,7 @@ class FilesystemCache implements ICache
 	{
 		$this->timeout = $timeout;
 		$this->logger = $logger;
+		$this->logger->log("Nota FileSystemCache");
 	}
 
 	public function set($key, $value)
